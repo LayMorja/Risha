@@ -1,7 +1,4 @@
 $(document).ready(function () {
-
-
-
 	$(".main-menu li a").on("click", function (e) {
 		e.preventDefault();
 		$(".menu-wrap").removeClass("open");
